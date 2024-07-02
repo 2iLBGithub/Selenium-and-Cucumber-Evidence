@@ -42,7 +42,6 @@ public class CheckoutPagePOM {
         UtilityLibrary.waitForElementToBeClickable(this.driver, this.getFirstName, 3);
         this.getFirstName.click();
         this.getFirstName.clear();
-//        this.getFirstName.sendKeys(firstName, Keys.ENTER);
         this.getFirstName.sendKeys(firstName);
     }
 
@@ -51,7 +50,6 @@ public class CheckoutPagePOM {
         UtilityLibrary.waitForElementToBeClickable(this.driver, this.getLastName, 3);
         this.getLastName.click();
         this.getLastName.clear();
-//        this.getLastName.sendKeys(lastName, Keys.ENTER);
         this.getLastName.sendKeys(lastName);
                 }
 
@@ -61,7 +59,6 @@ public class CheckoutPagePOM {
         this.getBillingCountry.click();
         UtilityLibrary.waitForElementToBeClickable(this.driver, this.getBillingCountryInput, 3);
         this.getBillingCountryInput.click();
-//        this.getBillingCountryInput.sendKeys(countryName, Keys.ENTER);
         this.getBillingCountryInput.sendKeys(countryName);
     }
 
@@ -70,7 +67,6 @@ public class CheckoutPagePOM {
         UtilityLibrary.waitForElementToBeClickable(this.driver, this.getBillingCity, 3);
         this.getBillingCity.click();
         this.getBillingCity.clear();
-//        this.getBillingCity.sendKeys(cityName, Keys.ENTER);
         this.getBillingCity.sendKeys(cityName);
     }
     public void inputBillingAddressNameAndNumber(String address) {
@@ -78,7 +74,6 @@ public class CheckoutPagePOM {
         UtilityLibrary.waitForElementToBeClickable(this.driver, this.getBillingAddressStreetAndNumber, 3);
         this.getBillingAddressStreetAndNumber.click();
         this.getBillingAddressStreetAndNumber.clear();
-//        this.getBillingAddressStreetAndNumber.sendKeys(address, Keys.ENTER);
         this.getBillingAddressStreetAndNumber.sendKeys(address);
     }
 
@@ -87,7 +82,6 @@ public class CheckoutPagePOM {
         UtilityLibrary.waitForElementToBeClickable(this.driver, this.getBillingPostCode, 3);
         this.getBillingPostCode.click();
         this.getBillingPostCode.clear();
-//        this.getBillingPostCode.sendKeys(postcode, Keys.ENTER);
         this.getBillingPostCode.sendKeys(postcode);
     }
 
@@ -96,7 +90,6 @@ public class CheckoutPagePOM {
         UtilityLibrary.waitForElementToBeClickable(this.driver, this.getBillingPhone, 3);
         this.getBillingPhone.click();
         this.getBillingPhone.clear();
-//        this.getBillingPhone.sendKeys(phoneNumber, Keys.ENTER);
         this.getBillingPhone.sendKeys(phoneNumber);
 
     }

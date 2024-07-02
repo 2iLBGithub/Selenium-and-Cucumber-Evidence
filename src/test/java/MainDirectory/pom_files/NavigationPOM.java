@@ -31,7 +31,7 @@ public class NavigationPOM {
     }
 
     public void searchFor(String product) {
-        this.searchBox.sendKeys(new CharSequence[]{product + String.valueOf(Keys.ENTER)});
+        this.searchBox.sendKeys(product + (Keys.ENTER));
     }
 
     public void goToAccount() {

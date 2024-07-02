@@ -51,9 +51,9 @@ public class AccountPagePOM {
     public void logInToSite(String username, String password) {
         UtilityLibrary.waitForElementToBeVisible(this.driver, this.selectUsername, 3);
         this.selectUsername.click();
-        this.selectUsername.sendKeys(new CharSequence[]{username});
+        this.selectUsername.sendKeys(username);
         this.selectPassword.click();
-        this.selectPassword.sendKeys(new CharSequence[]{password});
+        this.selectPassword.sendKeys(password);
         this.loginButton.click();
     }
 
