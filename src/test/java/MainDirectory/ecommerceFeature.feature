@@ -20,4 +20,4 @@ Feature: E-commerce Order Placement
     Examples:
       | Item   | FirstName | LastName | Country         | Address           | City         | PostCode | Phone     |
       | Beanie | Ray       | Blanc    | France          | 9 Pourier Avinoue | Yamsville    | 75008    | 123456789 |
-#      | Belt   | Bill      | Blanket  | United Kingdom  | 9 Porter Road     | Sirloin City | EH15 2BY | 987654321 |
+      | Belt   | Bill      | Blanket  | United Kingdom  | 9 Porter Road     | Sirloin City | EH15 2BY | 987654321 |
