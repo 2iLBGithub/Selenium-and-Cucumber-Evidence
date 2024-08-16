@@ -1,6 +1,7 @@
 package MainDirectory.pom_files;
 
 import MainDirectory.utilities.UtilityLibrary;
+import net.bytebuddy.asm.Advice;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -60,6 +61,7 @@ public class CheckoutPagePOM {
         UtilityLibrary.waitForElementToBeClickable(this.driver, this.getBillingCountryInput, 3);
         this.getBillingCountryInput.click();
         this.getBillingCountryInput.sendKeys(countryName);
+        this.getBillingCountryInput.sendKeys(Keys.ENTER);
     }
 
     public void inputBillingCity(String cityName) {

@@ -64,7 +64,6 @@ public class AccountPagePOM {
 
     public String checkOrderNumber() {
         String foundValue = this.orderDataCell.getText();
-        String sanitisedValue = foundValue.replace("#", "");
-        return sanitisedValue;
+        return foundValue.replace("#", "");
     }
 }
